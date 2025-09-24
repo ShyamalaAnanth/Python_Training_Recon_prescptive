@@ -17,6 +17,7 @@ print("Sum of ledger payments is:",ldg_tot);
 #Statement total
 stmt_tot=stmt_pmt1+stmt_pmt2+stmt_pmt3;
 print("Sum of statemet payments is:",stmt_tot)
+
 #Proofing by comparison
 if ldg_tot == stmt_tot:
     print("Payments reconciled, ledger and statement totals match")
